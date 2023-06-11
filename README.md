@@ -4,13 +4,41 @@
 
 ## ALGORITHM:
 ### Step 1:
+
+Import pandas module as pd.
+
 ### Step 2:
+
+Using pd.read_csv() method read the CSV file.
+
 ### Step 3:
+
+Using df.head() print the first 10 rows of the CSV file.
+
 ### Step 4:
+
+Using df.tail() print the last 5 of the CSV file.
+
 ### Step 5:
 
-## PROGRAM:
+Using len(df.axes[]) print the toal no.of rows and columns with argument 0 for row and argument 1 for column.
 
+## PROGRAM:
+```
+Program developed by : E.NANDHINI
+Register number: 212222100030
+import pandas as pd
+df=pd.read_csv("nba.csv")
+print(df.head(10))
+print(df.tail())
+print("rows",df.axes[0])
+print("columns",df.axes[1])
+print("no of rows",len(df.axes[0]))
+print("no of columns",len(df.axes[1]))
+```
 ## OUTPUT:
+
+![out](https://github.com/Nandhinijaya/Read-from-CSV/assets/121998147/b5e9a878-95ef-4beb-931d-f2ad66c4db90)
+
 
 ## RESULT:
